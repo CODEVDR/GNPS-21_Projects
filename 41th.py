@@ -12,7 +12,7 @@ def Salary():
         Salary=input("Enter Employee Salary : ")
         ml.append([Emp_Code,Name,Grade,Salary])
     writer(f).writerows(ml)
-#Salary()
+Salary()
 print("Printing Data Of Employess Whose Salary is 40000 or mode")
 f=open("Employee.csv")
 f=reader(f)
